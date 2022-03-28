@@ -8,6 +8,7 @@ package main
 //	for i := len(mass); i < 100; i++ {
 //		mass = append(mass, ' ')
 //	}
+//	v = string(mass)
 //	justString = v[:100]
 //}
 //

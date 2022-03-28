@@ -13,8 +13,8 @@ type Counter struct {
 func Increment(cnt *Counter, wg *sync.WaitGroup) {
 	cnt.mx.Lock()
 	cnt.count++
-	wg.Done()
 	cnt.mx.Unlock()
+	wg.Done()
 }
 
 func main() {
